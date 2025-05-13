@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="icon" type="image/x-icon" href="assets/image/logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+     <!--Start Header Section-->
+     <header>
+      <marquee behaviour="direction" class="justify-content-end" >
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+        <span ><i class="fa-solid fa-bolt"></i> Summer sale: Up to 70% off selected items</span>
+      </marquee>
+      <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/image/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="product-details.html">Product-Details</a>
+                  </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="Signup.html">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <div class="search-and-icons">
+                    <form class="d-flex mb-2 me-4" role="search">
+                        <input class="form-control me-2" type="search" aria-label="Search">
+                    </form>
+                    <div class="user-icons d-flex mb-2">
+                      <div class="dropdown">
+                        <span class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="bi bi-person"></i>
+                        </span>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="myaccount.html">My Account</a></li>
+                          <li><a class="dropdown-item" href="login.html">Login</a></li>
+                          <li><a class="dropdown-item" href="Signup.html">Register</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                        </ul>
+                      </div>
+                        <div class="wishlist"><a href="wishlist.html" class="text-decoration-none text-dark"><i class="bi bi-heart"></i></a></div>
+                        <div class="cart"><a href="add to cart.html" class="text-decoration-none text-dark"><i class="bi bi-cart3"></i></a></div>
+                      </div>
+                </div>
+                <div class="contact-info">
+                    <p>+9876543210 | +1234567890</p>
+                    <p><a href="mailto:">contact@shopzen.com</a></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+   <!-- End Header Section -->
+
+
+
+
+   <!-- Start Main Section -->
+
+   <!-- From Section -->
+    
+   <section class="loginform">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-12 mx-auto d-block">
+          <div class=" container card mb-3 " style="max-width: 540px;">
+            <div class="row g-0">
+              <div>
+                <h3 class="fw-bold mt-2">Sign Up</h3>
+                <p>Fill this from to open an account</p>
+                <hr>
+              </div>
+              <form class="row g-3" id="signupForm"  onSubmit="return confirm('Account Created Successfully') ">
+                <div class="col-md-6">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input type="text" class="form-control " id="firstname" placeholder="Enter your First Name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="lastname" class="form-label">Last Name</label>
+                  <input type="text" class="form-control " id="inputPassword4"placeholder="Enter your Last Name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="phonenumber" class="form-label">Phone Number</label>
+                  <input type="text" class="form-control " id="phonenumber" placeholder="+880 1234 5689 67" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="lastname" class="form-label">Uername</label>
+                  <input type="text" class="form-control " id="inputPassword4" placeholder="@shopzone" required>
+                </div>
+                <div class="col-12">
+                  <label for="inputemail" class="form-label">E-mail</label>
+                  <input type="email" class="form-control " id="inputemail" placeholder="shopzen@gmail.com" required>
+                </div>
+                <div class="col-12">
+                  <label for="password" class="form-label"> password</label>
+                  <input type="password" class="form-control" id="password" placeholder="hnik$5672*gj" required>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary" >Sign in</button>
+                </div>
+                <div class="text-center">
+                  <p>Already have an account? <a href="login.html" class="text-decoration-none">login</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+   <!-- End Main Section -->
+
+   
+
+
+     <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+     <script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
